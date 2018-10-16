@@ -1,0 +1,1004 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Icons local';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/icons.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'PAYBACK Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/PAYBACK_Regular.ttf") format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*{
+    font-family: 'PAYBACK Regular'!important;
+	user-select: none;
+}
+
+html, body, main{
+	height: 100%;
+	user-select: none;
+}
+html{
+	touch-action: none;
+	min-height: 100% !important;
+    height: 100%;
+}
+.carousel{
+	height: 100%;
+	position: absolute;
+}
+.carousel.carousel-slider .carousel-fixed-item{
+	bottom: inherit;
+	top: 80%;
+}
+.carousel .carousel-item{
+	padding-top: 50px;
+}
+.chevron{
+    width: 5rem;
+	font-size: 5rem;
+    color: #ccdbff;
+    cursor: pointer;
+}
+.chevron-left{
+    float: left;
+    margin-left: 15px;
+    background-image: url(../images/button-next.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+}
+.chevron-right{
+	float: right;
+    margin-right: 15px;
+    background-image: url(../images/button-next.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.modal{
+	background-image: url(../images/fondoIntro.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%!important;
+    top: 5%!important;
+    height: 90%;
+}
+.modal-footer{
+	background-color: #fafafa00;
+}
+.fondo-gif{
+	background-image: url(../images/fondoPlay2.png);
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+}
+
+.btn-menu{
+	position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.img-logo{
+	height: 60px;
+	margin: 2px;
+}
+
+.item-menu{
+	padding: 0px;
+	margin: 0px 25px;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.pointee{
+	display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.small{
+	width: 100px;
+	height: 100px
+}
+
+.mediun{
+	width: 125px;
+	height: 125px
+}
+
+.large{
+    width: 150px;
+    height: 150px
+}
+
+.extralarge{
+    width: 275px;
+    height: 150px
+}
+
+.pointee-juntos{
+    #background-image: url(../images/pointee-juntos.gif);
+}
+
+.pointee-blue{
+	#background-image: url(../images/pointee-azul.gif);
+}
+
+.pointee-red{   
+	#background-image: url(../images/pointee-rojo.gif);
+}
+.pointee-blue:before, .pointee-red:before{
+    background-image: attr(icono);
+}
+/*IMAGENES INICIO*/
+
+.MARK.ADIDAS.left{
+    background-image: url(../images/animaciones/MARK/ADIDAS/left.gif);
+}
+.MARK.ADIDAS.right{
+    background-image: url(../images/animaciones/MARK/ADIDAS/right.gif);
+}
+.MARK.AMERICANEXPRESS.left{
+    background-image: url(../images/animaciones/MARK/AMERICANEXPRESS/left.gif);
+}
+.MARK.AMERICANEXPRESS.right{
+    background-image: url(../images/animaciones/MARK/AMERICANEXPRESS/right.gif);
+}
+.MARK.APPLE.left{
+    background-image: url(../images/animaciones/MARK/APPLE/left.gif);
+}
+.MARK.APPLE.right{
+    background-image: url(../images/animaciones/MARK/APPLE/right.gif);
+}
+.MARK.ARRACHERAHOUSE.left{
+    background-image: url(../images/animaciones/MARK/ARRACHERAHOUSE/left.gif);
+}
+.MARK.ARRACHERAHOUSE.right{
+    background-image: url(../images/animaciones/MARK/ARRACHERAHOUSE/right.gif);
+}
+.MARK.BESTBUY.left{
+    background-image: url(../images/animaciones/MARK/BESTBUY/left.gif);
+}
+.MARK.BESTBUY.right{
+    background-image: url(../images/animaciones/MARK/BESTBUY/right.gif);
+}
+.MARK.BOOKINGCOM.left{
+    background-image: url(../images/animaciones/MARK/BOOKINGCOM/left.gif);
+}
+.MARK.BOOKINGCOM.right{
+    background-image: url(../images/animaciones/MARK/BOOKINGCOM/right.gif);
+}
+.MARK.CAFEDILETTO.left{
+    background-image: url(../images/animaciones/MARK/CAFEDILETTO/left.gif);
+}
+.MARK.CAFEDILETTO.right{
+    background-image: url(../images/animaciones/MARK/CAFEDILETTO/right.gif);
+}
+.MARK.CINEMEX.left{
+    background-image: url(../images/animaciones/MARK/CINEMEX/left.gif);
+}
+.MARK.CINEMEX.right{
+    background-image: url(../images/animaciones/MARK/CINEMEX/right.gif);
+}
+.MARK.ELFAROLITO.left{
+    background-image: url(../images/animaciones/MARK/ELFAROLITO/left.gif);
+}
+.MARK.ELFAROLITO.right{
+    background-image: url(../images/animaciones/MARK/ELFAROLITO/right.gif);
+}
+.MARK.ELSURTIDOR.left{
+    background-image: url(../images/animaciones/MARK/ELSURTIDOR/left.gif);
+}
+.MARK.ELSURTIDOR.right{
+    background-image: url(../images/animaciones/MARK/ELSURTIDOR/right.gif);
+}
+.MARK.GIORNALE.left{
+    background-image: url(../images/animaciones/MARK/GIORNALE/left.gif);
+}
+.MARK.GIORNALE.right{
+    background-image: url(../images/animaciones/MARK/GIORNALE/right.gif);
+}
+.MARK.HERTZ.left{
+    background-image: url(../images/animaciones/MARK/HERTZ/left.gif);
+}
+.MARK.HERTZ.right{
+    background-image: url(../images/animaciones/MARK/HERTZ/right.gif);
+}
+.MARK.HOTELESMISION.left{
+    background-image: url(../images/animaciones/MARK/HOTELESMISION/left.gif);
+}
+.MARK.HOTELESMISION.right{
+    background-image: url(../images/animaciones/MARK/HOTELESMISION/right.gif);
+}
+.MARK.INTERJET.left{
+    background-image: url(../images/animaciones/MARK/INTERJET/left.gif);
+}
+.MARK.INTERJET.right{
+    background-image: url(../images/animaciones/MARK/INTERJET/right.gif);
+}
+.MARK.JUGUETRON.left{
+    background-image: url(../images/animaciones/MARK/JUGUETRON/left.gif);
+}
+.MARK.JUGUETRON.right{
+    background-image: url(../images/animaciones/MARK/JUGUETRON/right.gif);
+}
+.MARK.KRISPYKREME.left{
+    background-image: url(../images/animaciones/MARK/KRISPYKREME/left.gif);
+}
+.MARK.KRISPYKREME.right{
+    background-image: url(../images/animaciones/MARK/KRISPYKREME/right.gif);
+}
+.MARK.LACOMER.left{
+    background-image: url(../images/animaciones/MARK/LACOMER/left.gif);
+}
+.MARK.LACOMER.right{
+    background-image: url(../images/animaciones/MARK/LACOMER/right.gif);
+}
+.MARK.MEGASORIANA.left{
+    background-image: url(../images/animaciones/MARK/MEGASORIANA/left.gif);
+}
+.MARK.MEGASORIANA.right{
+    background-image: url(../images/animaciones/MARK/MEGASORIANA/right.gif);
+}
+.MARK.MODATELAS.left{
+    background-image: url(../images/animaciones/MARK/MODATELAS/left.gif);
+}
+.MARK.MODATELAS.right{
+    background-image: url(../images/animaciones/MARK/MODATELAS/right.gif);
+}
+.MARK.NETSHOES.left{
+    background-image: url(../images/animaciones/MARK/NETSHOES/left.gif);
+}
+.MARK.NETSHOES.right{
+    background-image: url(../images/animaciones/MARK/NETSHOES/right.gif);
+}
+.MARK.NEVEGELATO.left{
+    background-image: url(../images/animaciones/MARK/NEVEGELATO/left.gif);
+}
+.MARK.NEVEGELATO.right{
+    background-image: url(../images/animaciones/MARK/NEVEGELATO/right.gif);
+}
+.MARK.NUNYSYOGURT.left{
+    background-image: url(../images/animaciones/MARK/NUNYSYOGURT/left.gif);
+}
+.MARK.NUNYSYOGURT.right{
+    background-image: url(../images/animaciones/MARK/NUNYSYOGURT/right.gif);
+}
+.MARK.OSOM.left{
+    background-image: url(../images/animaciones/MARK/OSOM/left.gif);
+}
+.MARK.OSOM.right{
+    background-image: url(../images/animaciones/MARK/OSOM/right.gif);
+}
+.MARK.PETROSEVEN.left{
+    background-image: url(../images/animaciones/MARK/PETROSEVEN/left.gif);
+}
+.MARK.PETROSEVEN.right{
+    background-image: url(../images/animaciones/MARK/PETROSEVEN/right.gif);
+}
+.MARK.SANTANDER.left{
+    background-image: url(../images/animaciones/MARK/SANTANDER/left.gif);
+}
+.MARK.SANTANDER.right{
+    background-image: url(../images/animaciones/MARK/SANTANDER/right.gif);
+}
+.MARK.SBARRO.left{
+    background-image: url(../images/animaciones/MARK/SBARRO/left.gif);
+}
+.MARK.SBARRO.right{
+    background-image: url(../images/animaciones/MARK/SBARRO/right.gif);
+}
+.MARK.SEVENELEVEN.left{
+    background-image: url(../images/animaciones/MARK/SEVENELEVEN/left.gif);
+}
+.MARK.SEVENELEVEN.right{
+    background-image: url(../images/animaciones/MARK/SEVENELEVEN/right.gif);
+}
+.MARK.SIXTIESBURGUER.left{
+    background-image: url(../images/animaciones/MARK/SIXTIESBURGUER/left.gif);
+}
+.MARK.SIXTIESBURGUER.right{
+    background-image: url(../images/animaciones/MARK/SIXTIESBURGUER/right.gif);
+}
+.MARK.SORTEOSTEC.left{
+    background-image: url(../images/animaciones/MARK/SORTEOSTEC/left.gif);
+}
+.MARK.SORTEOSTEC.right{
+    background-image: url(../images/animaciones/MARK/SORTEOSTEC/right.gif);
+}
+.MARK.SUSHIITTO.left{
+    background-image: url(../images/animaciones/MARK/SUSHIITTO/left.gif);
+}
+.MARK.SUSHIITTO.right{
+    background-image: url(../images/animaciones/MARK/SUSHIITTO/right.gif);
+}
+.MARK.TACOINN.left{
+    background-image: url(../images/animaciones/MARK/TACOINN/left.gif);
+}
+.MARK.TACOINN.right{
+    background-image: url(../images/animaciones/MARK/TACOINN/right.gif);
+}
+.MARK.TRAVELIMPRESSIONS.left{
+    background-image: url(../images/animaciones/MARK/TRAVELIMPRESSIONS/left.gif);
+}
+.MARK.TRAVELIMPRESSIONS.right{
+    background-image: url(../images/animaciones/MARK/TRAVELIMPRESSIONS/right.gif);
+}
+.MARK.UNDOSTRES.left{
+    background-image: url(../images/animaciones/MARK/UNDOSTRES/left.gif);
+}
+.MARK.UNDOSTRES.right{
+    background-image: url(../images/animaciones/MARK/UNDOSTRES/right.gif);
+}
+
+/*AMEX*/
+
+.AMEX.ADIDAS.left{
+    background-image: url(../images/animaciones/AMEX/ADIDAS/left.gif);
+}
+.AMEX.ADIDAS.right{
+    background-image: url(../images/animaciones/AMEX/ADIDAS/right.gif);
+}
+.AMEX.AMERICANEXPRESS.left{
+    background-image: url(../images/animaciones/AMEX/AMERICANEXPRESS/left.gif);
+}
+.AMEX.AMERICANEXPRESS.right{
+    background-image: url(../images/animaciones/AMEX/AMERICANEXPRESS/right.gif);
+}
+.AMEX.APPLE.left{
+    background-image: url(../images/animaciones/AMEX/APPLE/left.gif);
+}
+.AMEX.APPLE.right{
+    background-image: url(../images/animaciones/AMEX/APPLE/right.gif);
+}
+.AMEX.ARRACHERAHOUSE.left{
+    background-image: url(../images/animaciones/AMEX/ARRACHERAHOUSE/left.gif);
+}
+.AMEX.ARRACHERAHOUSE.right{
+    background-image: url(../images/animaciones/AMEX/ARRACHERAHOUSE/right.gif);
+}
+.AMEX.BESTBUY.left{
+    background-image: url(../images/animaciones/AMEX/BESTBUY/left.gif);
+}
+.AMEX.BESTBUY.right{
+    background-image: url(../images/animaciones/AMEX/BESTBUY/right.gif);
+}
+.AMEX.BOOKINGCOM.left{
+    background-image: url(../images/animaciones/AMEX/BOOKINGCOM/left.gif);
+}
+.AMEX.BOOKINGCOM.right{
+    background-image: url(../images/animaciones/AMEX/BOOKINGCOM/right.gif);
+}
+.AMEX.CAFEDILETTO.left{
+    background-image: url(../images/animaciones/AMEX/CAFEDILETTO/left.gif);
+}
+.AMEX.CAFEDILETTO.right{
+    background-image: url(../images/animaciones/AMEX/CAFEDILETTO/right.gif);
+}
+.AMEX.CINEMEX.left{
+    background-image: url(../images/animaciones/AMEX/CINEMEX/left.gif);
+}
+.AMEX.CINEMEX.right{
+    background-image: url(../images/animaciones/AMEX/CINEMEX/right.gif);
+}
+.AMEX.ELFAROLITO.left{
+    background-image: url(../images/animaciones/AMEX/ELFAROLITO/left.gif);
+}
+.AMEX.ELFAROLITO.right{
+    background-image: url(../images/animaciones/AMEX/ELFAROLITO/right.gif);
+}
+.AMEX.ELSURTIDOR.left{
+    background-image: url(../images/animaciones/AMEX/ELSURTIDOR/left.gif);
+}
+.AMEX.ELSURTIDOR.right{
+    background-image: url(../images/animaciones/AMEX/ELSURTIDOR/right.gif);
+}
+.AMEX.GIORNALE.left{
+    background-image: url(../images/animaciones/AMEX/GIORNALE/left.gif);
+}
+.AMEX.GIORNALE.right{
+    background-image: url(../images/animaciones/AMEX/GIORNALE/right.gif);
+}
+.AMEX.HERTZ.left{
+    background-image: url(../images/animaciones/AMEX/HERTZ/left.gif);
+}
+.AMEX.HERTZ.right{
+    background-image: url(../images/animaciones/AMEX/HERTZ/right.gif);
+}
+.AMEX.HOTELESMISION.left{
+    background-image: url(../images/animaciones/AMEX/HOTELESMISION/left.gif);
+}
+.AMEX.HOTELESMISION.right{
+    background-image: url(../images/animaciones/AMEX/HOTELESMISION/right.gif);
+}
+.AMEX.INTERJET.left{
+    background-image: url(../images/animaciones/AMEX/INTERJET/left.gif);
+}
+.AMEX.INTERJET.right{
+    background-image: url(../images/animaciones/AMEX/INTERJET/right.gif);
+}
+.AMEX.JUGUETRON.left{
+    background-image: url(../images/animaciones/AMEX/JUGUETRON/left.gif);
+}
+.AMEX.JUGUETRON.right{
+    background-image: url(../images/animaciones/AMEX/JUGUETRON/right.gif);
+}
+.AMEX.KRISPYKREME.left{
+    background-image: url(../images/animaciones/AMEX/KRISPYKREME/left.gif);
+}
+.AMEX.KRISPYKREME.right{
+    background-image: url(../images/animaciones/AMEX/KRISPYKREME/right.gif);
+}
+.AMEX.LACOMER.left{
+    background-image: url(../images/animaciones/AMEX/LACOMER/left.gif);
+}
+.AMEX.LACOMER.right{
+    background-image: url(../images/animaciones/AMEX/LACOMER/right.gif);
+}
+.AMEX.MEGASORIANA.left{
+    background-image: url(../images/animaciones/AMEX/MEGASORIANA/left.gif);
+}
+.AMEX.MEGASORIANA.right{
+    background-image: url(../images/animaciones/AMEX/MEGASORIANA/right.gif);
+}
+.AMEX.MODATELAS.left{
+    background-image: url(../images/animaciones/AMEX/MODATELAS/left.gif);
+}
+.AMEX.MODATELAS.right{
+    background-image: url(../images/animaciones/AMEX/MODATELAS/right.gif);
+}
+.AMEX.NETSHOES.left{
+    background-image: url(../images/animaciones/AMEX/NETSHOES/left.gif);
+}
+.AMEX.NETSHOES.right{
+    background-image: url(../images/animaciones/AMEX/NETSHOES/right.gif);
+}
+.AMEX.NEVEGELATO.left{
+    background-image: url(../images/animaciones/AMEX/NEVEGELATO/left.gif);
+}
+.AMEX.NEVEGELATO.right{
+    background-image: url(../images/animaciones/AMEX/NEVEGELATO/right.gif);
+}
+.AMEX.NUNYSYOGURT.left{
+    background-image: url(../images/animaciones/AMEX/NUNYSYOGURT/left.gif);
+}
+.AMEX.NUNYSYOGURT.right{
+    background-image: url(../images/animaciones/AMEX/NUNYSYOGURT/right.gif);
+}
+.AMEX.OSOM.left{
+    background-image: url(../images/animaciones/AMEX/OSOM/left.gif);
+}
+.AMEX.OSOM.right{
+    background-image: url(../images/animaciones/AMEX/OSOM/right.gif);
+}
+.AMEX.PETROSEVEN.left{
+    background-image: url(../images/animaciones/AMEX/PETROSEVEN/left.gif);
+}
+.AMEX.PETROSEVEN.right{
+    background-image: url(../images/animaciones/AMEX/PETROSEVEN/right.gif);
+}
+.AMEX.SANTANDER.left{
+    background-image: url(../images/animaciones/AMEX/SANTANDER/left.gif);
+}
+.AMEX.SANTANDER.right{
+    background-image: url(../images/animaciones/AMEX/SANTANDER/right.gif);
+}
+.AMEX.SBARRO.left{
+    background-image: url(../images/animaciones/AMEX/SBARRO/left.gif);
+}
+.AMEX.SBARRO.right{
+    background-image: url(../images/animaciones/AMEX/SBARRO/right.gif);
+}
+.AMEX.SEVENELEVEN.left{
+    background-image: url(../images/animaciones/AMEX/SEVENELEVEN/left.gif);
+}
+.AMEX.SEVENELEVEN.right{
+    background-image: url(../images/animaciones/AMEX/SEVENELEVEN/right.gif);
+}
+.AMEX.SIXTIESBURGUER.left{
+    background-image: url(../images/animaciones/AMEX/SIXTIESBURGUER/left.gif);
+}
+.AMEX.SIXTIESBURGUER.right{
+    background-image: url(../images/animaciones/AMEX/SIXTIESBURGUER/right.gif);
+}
+.AMEX.SORTEOSTEC.left{
+    background-image: url(../images/animaciones/AMEX/SORTEOSTEC/left.gif);
+}
+.AMEX.SORTEOSTEC.right{
+    background-image: url(../images/animaciones/AMEX/SORTEOSTEC/right.gif);
+}
+.AMEX.SUSHIITTO.left{
+    background-image: url(../images/animaciones/AMEX/SUSHIITTO/left.gif);
+}
+.AMEX.SUSHIITTO.right{
+    background-image: url(../images/animaciones/AMEX/SUSHIITTO/right.gif);
+}
+.AMEX.TACOINN.left{
+    background-image: url(../images/animaciones/AMEX/TACOINN/left.gif);
+}
+.AMEX.TACOINN.right{
+    background-image: url(../images/animaciones/AMEX/TACOINN/right.gif);
+}
+.AMEX.TRAVELIMPRESSIONS.left{
+    background-image: url(../images/animaciones/AMEX/TRAVELIMPRESSIONS/left.gif);
+}
+.AMEX.TRAVELIMPRESSIONS.right{
+    background-image: url(../images/animaciones/AMEX/TRAVELIMPRESSIONS/right.gif);
+}
+.AMEX.UNDOSTRES.left{
+    background-image: url(../images/animaciones/AMEX/UNDOSTRES/left.gif);
+}
+.AMEX.UNDOSTRES.right{
+    background-image: url(../images/animaciones/AMEX/UNDOSTRES/right.gif);
+}
+
+/*FIN IMAGENES*/
+/*.pointee-explosion{
+	transform: initial!important;
+    -moz-transform: initial!important;
+    -webkit-transform: initial!important;
+    -o-transform: initial!important;
+}*/
+.explosion-blue{
+    background-image: url(../images/explosion-azul.png)!important;
+}
+.explosion-red{
+    background-image: url(../images/explosion-roja.png)!important;
+}
+.pointee-explosion.points-0-5:after{
+    content: '0.5';
+}
+.pointee-explosion.points-1:after{
+    content: '1.0';
+}
+.pointee-explosion.points-1-5:after{
+    content: '1.5';
+}
+.pointee-explosion.points-2:after{
+    content: '2.0';
+}
+.pointee-explosion.points-2-5:after{
+    content: '2.5';
+}
+.pointee-explosion.points-3:after{
+    content: '3.0';
+}
+.pointee-explosion.points-3-5:after{
+    content: '3.5';
+}
+.pointee-explosion.points-4:after{
+    content: '4.0';
+}
+.pointee-explosion.points-4-5:after{
+    content: '4.5';
+}
+.pointee-explosion.points-5:after{
+    content: '5.0';
+}
+.pointee-explosion.points-5-5:after{
+    content: '5.5';
+}
+.pointee-explosion.points-6:after{
+    content: '6.0';
+}
+.pointee-explosion.points-6-5:after{
+    content: '6.5';
+}
+.pointee-explosion.points-7:after{
+    content: '7.0';
+}
+.pointee-explosion.points-7-5:after{
+    content: '7.5';
+}
+.pointee-explosion.points-8:after{
+    content: '8.0';
+}
+.pointee-explosion.points-8-5:after{
+    content: '8.5';
+}
+.pointee-explosion.points-9:after{
+    content: '9.0';
+}
+.pointee-explosion.points-9-5:after{
+    content: '9.5';
+}
+.pointee-explosion.points-10:after{
+    content: '10.0';
+}
+.pointee-explosion.points-10-5:after{
+    content: '10.5';
+}
+.pointee-explosion.points-11:after{
+    content: '11.0';
+}
+.pointee-explosion.points-11-5:after{
+    content: '11.5';
+}
+.pointee-explosion.points-15:after{
+    content: '15.0';
+}
+.pointee-explosion.points-15-5:after{
+    content: '15.5';
+}
+.pointee-explosion.points-16:after{
+    content: '16.0';
+}
+.pointee-explosion.points-16-5:after{
+    content: '16.5';
+}
+.pointee-explosion.points-20:after{
+    content: '20.0';
+}
+.pointee-explosion.points-21-5:after{
+    content: '21.5';
+}
+.pointee-explosion:after {
+    position: relative;
+    left: 27%;
+    top: 30%;
+    color: #0112ff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+.pointee.right{
+    /*transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);*/
+    right: -50px;
+}
+.pointee.left{
+    left: -50px;
+    /*transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    -o-transform: scaleX(1);*/
+}
+/*.pointee-juntos.pointee.right{
+    transform: initial!important;
+    -moz-transform: initial!important;
+    -webkit-transform: initial!important;
+    -o-transform: initial!important;
+    right: 0px;
+}
+.pointee-juntos.pointee.left{
+    left: 0px;
+    transform: scaleX(-1)!important;
+    -moz-transform: scaleX(-1)!important;
+    -webkit-transform: scaleX(-1)!important;
+    -o-transform: scaleX(-1)!important;
+    
+}*/
+.log{
+	position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.carousel-item{
+    background-image: url(../images/fondoIntro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.indicators{
+    background-color: #001A4B!important;
+}
+.indicators li{
+    display: none!important;
+}
+.logo-payback{
+    background-image: url(../images/logo-payback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 104px;
+    height: 40px;
+    bottom: 5px;
+    display: inline-block;
+    margin-right: 1rem;
+}
+.logo-payback.logo-nav{
+    left: calc( 50% - 125px);
+    display: inline-block;
+    position: absolute;
+}
+.logo-amex{
+    background-image: url(../images/logo-amex.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height:43px;
+    bottom: 5px;
+    display: inline-block;
+    margin-left: 1rem;
+}
+.logo-amex.logo-nav{
+    right: calc( 50% - 125px);
+    display: inline-block;
+    position: absolute;
+}
+.pointee-left-blue1{
+    background-image: url(../images/pointee1-left-talk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 15rem;
+    position: absolute;
+    display: block;
+    left: 6rem;
+    top: 23rem;
+}
+.pointee-right-blue1{
+    background-image: url(../images/pointee1-right-talk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 15rem;
+    position: absolute;
+    display: block;
+    right: 6rem;
+    top: 23rem;
+}
+.burble-left1{
+    background-image: url(../images/burble-left.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18rem;
+    height: 15rem;
+    position: absolute;
+    display: block;
+    left: 9rem;
+    top: 12rem;
+}
+.burble-left1:after{
+    content: "¡Bienvenido al MUNDO PAYBACK!";
+    color: #000000;
+    font-size: 2rem;
+    position: absolute;
+    top: 2rem;
+    left: 0rem;
+    color: #001A4B!important;
+}
+.burble-right1{
+    background-image: url(../images/burble-right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18rem;
+    height: 15rem;
+    position: absolute;
+    display: block;
+    right: 9rem;
+    top: 12rem;
+}
+.burble-right1:after{
+    content: "El único Programa de Lealtad que te recompensa a lo grande en tus compras de todos los días.";
+    font-size: 1.2rem;
+    position: absolute;
+    top: 2rem;
+    left: 0rem;
+    padding: 0rem 1.3rem;
+    color: #001A4B!important;
+}
+
+
+
+.pointee-left-blue2{
+    background-image: url(../images/pointee1-left-talk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 15rem;
+    position: absolute;
+    display: block;
+    left: 6rem;
+    top: 23rem;
+}
+.pointee-right-blue2{
+    background-image: url(../images/pointee1-right-talk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 15rem;
+    position: absolute;
+    display: block;
+    right: 6rem;
+    top: 23rem;
+}
+.burble-left2{
+    background-image: url(../images/burble-left.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18rem;
+    height: 15rem;
+    position: absolute;
+    display: block;
+    left: 9rem;
+    top: 12rem;
+}
+.burble-left2:after{
+    content: "¡Juega con nosotros y recolecta los puntos que las marcas le dan a tu Monedero PAYBACK!";
+    color: #000000;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 2rem;
+    left: 0rem;
+    color: #001A4B!important;
+}
+.burble-right2{
+    background-image: url(../images/burble-right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18rem;
+    height: 15rem;
+    position: absolute;
+    display: block;
+    right: 9rem;
+    top: 12rem;
+}
+.burble-right2:after{
+    content: "¡Apresurate! Tienes 45 segundos para tocar la mayor cantidad de Pointees y descubrir los puntos que cada uno te da.";
+    color: #000000;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 2rem;
+    left: 0rem;
+    padding: 0rem 1.3rem;
+    color: #001A4B!important;
+}
+
+
+
+.pointee-left-blue3{
+    background-image: url(../images/pointee1-left-talk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 15rem;
+    position: absolute;
+    display: block;
+    left: 6rem;
+    top: 20rem;
+}
+.pointee-right-blue3{
+    background-image: url(../images/pointee1-right-talk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 15rem;
+    position: absolute;
+    display: block;
+    right: 6rem;
+    top: 20rem;
+}
+.burble-left3{
+    background-image: url(../images/burble-left.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18rem;
+    height: 15rem;
+    position: absolute;
+    display: block;
+    left: 9rem;
+    top: 8rem;
+}
+.burble-left3:after{
+    content: attr(title);
+    color: #000000;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 1rem;
+    left: 2.5rem;
+    color: #001A4B!important;
+}
+.burble-right3{
+    background-image: url(../images/burble-right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18rem;
+    height: 15rem;
+    position: absolute;
+    display: block;
+    right: 9rem;
+    top: 8rem;
+}
+.burble-right3:after{
+    content: "¡No olvides usar tu Monedero PAYBACK en tus compras para seguir obteniendo recompensas!";
+    color: #000000;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 1.2rem;
+    left: 1rem;
+    padding: 0rem 1.3rem;
+    color: #001A4B!important;
+}
+
+
+
+.msg-comenzar{
+    margin: 1rem!important;
+    font-size: 5rem!important;
+    color: #001A4B!important;
+}
+.btn-pointee{
+    background-image: url(../images/button.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+}
+.btn-pointee:after{
+    content: "INICIA";
+    font-size: 2rem;
+    top: 3.4rem;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+.navbar-fixed{
+    bottom: 0px!important;
+    position: absolute!important;
+}
+nav {
+    background-color: #001A4B;
+}
+.fixed-action-btn{
+    bottom: 75px!important;
+}
+
+.icono{
+    position: absolute;
+    background-size: contain;
+    display: block;
+    background-repeat: no-repeat;
+}
+/*.left .icono{
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+}*/
+.small .icono{
+    width: 90px;
+    height: 30px;
+}
+.mediun .icono{
+    width: 115px;
+    height: 30px;
+}
+.large .icono{
+    width: 140px;
+    height: 30px;
+}
+.extralarge .icono{
+    width: 100px;
+    height: 30px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pointees Payback</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/material-icon.css">
+    <link rel="stylesheet" type="text/css" href="styles/materialize.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <script type="text/javascript" src="scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="scripts/materialize.js"></script>
+
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Pointees PWA">
+    <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
+    <!-- Windows -->
+    <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <link rel="icon"
+         type="image/png"
+         href="images/icons/icon-144x144.png">
+  </head>
+  <body>
+    <div class="navbar-fixed hide">
+      <nav>
+        <div class="nav-wrapper">
+          <ul id="nav-right" class="right">
+            <li>
+              <a class="item-menu" href="javascript:;">
+                Puntos: <span class="jqScore">0</span>
+              </a>
+            </li>
+          </ul>
+          <div class="logo-payback logo-nav"></div>
+          <div class="logo-amex logo-nav"></div>
+          <ul id="nav-left" class="left">
+            <li>
+              <a class="item-menu" href="javascript:;">
+                Tiempo: <span class="jqTime">0</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div id="modalResultado" class="modal">
+      <div class="modal-content back-result" style="height: 90%;">
+        <span class="pointee-left-blue3"></span>
+        <span class="pointee-right-blue3"></span>
+        <span class="burble-left3"></span>
+        <span class="burble-right3"></span>
+      </div>
+      <!--div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect btn-flat">Aceptar</a>
+      </div-->
+    </div>
+    <div class="carousel carousel-slider center">
+      <div class="carousel-fixed-item center">
+        <span class="waves-effect chevron chevron-left hide">
+          &nbsp;
+        </span>
+        <span class="waves-effect chevron chevron-right">
+          &nbsp;
+        </span>
+      </div>
+      <div class="carousel-item blue white-text" href="#one!" index="first">
+        <span class="pointee-left-blue1"></span>
+        <span class="pointee-right-blue1"></span>
+        <span class="burble-left1"></span>
+        <span class="burble-right1"></span>
+      </div>
+      <div class="carousel-item blue white-text page2" href="#two!" index="2">
+        <span class="pointee-left-blue2"></span>
+        <span class="pointee-right-blue2"></span>
+        <span class="burble-left2"></span>
+        <span class="burble-right2"></span>
+      </div>
+      <div class="carousel-item blue white-text page3" href="#three!" index="last">
+        <p class="msg-comenzar">¡Es hora de comenzar!</p>
+        <a href="#!" class="jqJugar" style="display: inline-block;"><span class="btn-pointee">&nbsp;</span></a>
+      </div>
+    </div>
+    <main id="container" class="container-fluid fondo-gif hide">
+        
+    </main>
+    <div class="fixed-action-btn hide">
+      <a class="btn-floating btn-large blue pulse">
+        <i class="large material-icons">menu</i>
+      </a>
+      <ul>
+        <li><a class="btn-floating green darken-1 jqReloadPlay"><i class="material-icons">refresh</i></a></li>
+        <li><a class="btn-floating black darken-1 jqStopStarAudio"><i class="material-icons">volume_up</i></a></li>
+        <li><a class="btn-floating red darken-1 jqInit"><i class="material-icons">home</i></a></li>
+      </ul>
+    </div>
+    <div class="col-md-12 log" id="log">Logs</div>
+    
+    <script type="text/javascript" src="scripts/app.js"></script>
+  </body>
+</html>

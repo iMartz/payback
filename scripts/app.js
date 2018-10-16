@@ -194,6 +194,8 @@
         size = sizes[3];
       }
       let puntaje = PUNTAJES[tipo][marca];
+      console.log(tipo);
+      console.log(marca);
       let clasePuntaje = 'points-'+puntaje.toString().replace('.', '-');
       //creación del pointee
       let pointee = $('<span>').attr({

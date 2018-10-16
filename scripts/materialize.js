@@ -9396,7 +9396,6 @@ if (Vel) {
             //console.log('set click');
             $indicator.click(function (e) {
               e.stopPropagation();
-              console.log('click');
               var index = $(this).index();
               cycleTo(index);
             });
@@ -9621,7 +9620,6 @@ if (Vel) {
         }
 
         function cycleTo(n) {
-          console.log('in cycleTo');
           var diff = center % count - n;
 
           // Account for wraparound.
